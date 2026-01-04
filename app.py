@@ -13,10 +13,6 @@ def load_model():
         model = pickle.load(file)
     return model
 
-
-# -------------------------------
-# Main App Function
-# -------------------------------
 def main():
     st.set_page_config(
         page_title="Spam Mail Detector",
